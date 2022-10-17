@@ -1,0 +1,31 @@
+﻿生成启动时间为 2022/7/24 17:00:43。
+     1>项目“C:\Users\PC\Desktop\football\DLL工程\shoot\shoot\shoot.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\VS\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D SHOOT_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt src\shoot.cpp
+         shoot.cpp
+     1>c:\users\pc\desktop\football\dll工程\shoot\shoot\src\utils\vector.h(662): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+     1>c:\users\pc\desktop\football\dll工程\shoot\shoot\src\utils\game_state.h(125): warning C4800: “const int”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>c:\users\pc\desktop\football\dll工程\shoot\shoot\src\utils\game_state.h(129): warning C4800: “const int”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>c:\users\pc\desktop\football\dll工程\shoot\shoot\src\utils\game_state.h(133): warning C4800: “const int”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>c:\users\pc\desktop\football\dll工程\shoot\shoot\src\utils\game_state.h(137): warning C4800: “const int”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>c:\users\pc\desktop\football\dll工程\shoot\shoot\src\utils\game_state.h(141): warning C4800: “const int”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>src\shoot.cpp(4): warning C4190: “player_plan”有指定的 C 链接，但返回了与 C 不兼容的 UDT“PlayerTask”
+                 c:\users\pc\desktop\football\dll工程\shoot\shoot\src\utils/PlayerTask.h(30) : 参见“PlayerTask”的声明
+     1>src\shoot.cpp(18): warning C4305: “初始化”: 从“double”到“const float”截断
+     1>src\shoot.cpp(20): warning C4305: “初始化”: 从“double”到“const float”截断
+     1>src\shoot.cpp(51): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+     1>src\shoot.cpp(54): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+     1>src\shoot.cpp(120): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+       Link:
+         D:\VS\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\PC\Desktop\football\DLL工程\shoot\Release\shoot.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:..\worldmodel_lib worldmodel_lib.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\PC\Desktop\football\DLL工程\shoot\Release\shoot.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\PC\Desktop\football\DLL工程\shoot\Release\shoot.lib" /MACHINE:X86 /SAFESEH /DLL Release\shoot.obj
+         Release\maths.obj
+            正在创建库 C:\Users\PC\Desktop\football\DLL工程\shoot\Release\shoot.lib 和对象 C:\Users\PC\Desktop\football\DLL工程\shoot\Release\shoot.exp
+         正在生成代码
+         已完成代码的生成
+     1>worldmodel_lib.lib(worldmodel.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“worldmodel_lib.lib(worldmodel.obj)”或在“C:\Users\PC\Desktop\football\DLL工程\shoot\Release\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+         shoot.vcxproj -> C:\Users\PC\Desktop\football\DLL工程\shoot\Release\shoot.dll
+     1>已完成生成项目“C:\Users\PC\Desktop\football\DLL工程\shoot\shoot\shoot.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.50
